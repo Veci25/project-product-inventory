@@ -1,1 +1,52 @@
-.history/.DS_Store
+# OS/Editor files
+.DS_Store
+.thumbs.db
+*.swp
+*~
+._*
+
+# IDE
+.idea/
+.vscode/
+.history/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build directories
+dist/
+build/
+out/
+.next/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Debug files
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# System Files
+ehthumbs.db
+Thumbs.db
